@@ -1,0 +1,874 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Old+Standard+TT:wght@700&family=Quicksand:wght@400;500;700&display=swap');
+
+header, main,footer {
+    max-width: 1440px;
+    margin-inline: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    max-width: 1200;
+}
+
+
+
+/* Page One */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 136px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 136px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+nav ul a {
+    color: #424B25;
+    transition: all .2s ease;
+}
+
+nav ul a:hover {
+    color: #e45039;
+}
+
+.container {
+    background-image: url(Images/right\ color.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: right;
+}
+
+.hero-area {
+    display: flex;
+}
+
+.hero-text {
+    margin-top: 282px;
+}
+
+.hero-text h3 {
+    margin-left: 136px;
+    color: #424B25;
+    font-family: Old Standard TT;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px;
+    display: inline-flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 10px;
+    background: #F9DE80;
+    margin-bottom: 10px;
+}
+
+.hero-text h1 {
+    color: #5F6C37;
+    font-family: Abril Fatface;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 97.9%;
+    letter-spacing: 0.8px;
+    margin-left: 137px;
+    margin-bottom: 16px;
+}
+
+.hero-text p {
+    color: #363D1E;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 156.5%;
+    letter-spacing: 0.16px;
+    margin-left: 136px;
+    margin-bottom: 46px;
+}
+
+.hero-text button {
+    padding: 12px 40px;
+    margin-left: 136px;
+    border-radius: 8px;
+    border: none;
+    background: #5F6C37;
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 97.9%;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.hero-text button:hover {
+    background: #DE6957;
+}
+
+.hero-img {
+    margin-top: 229px;
+}
+
+/* Page One */
+
+
+
+/* Page Two */
+
+.container-tow {
+    background: #f1f1f1 url(Images/vecroe\ 1.png);
+    width: 1520px;
+}
+
+.icon-aria {
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-box {
+    width: 274px;
+    height: 274px;
+    background: #fffdf5;
+    text-align: center;
+    margin-top: 105px;
+    margin-bottom: 98px;
+    border-radius: 0px 20px;
+    background: #FFFDF5;
+    box-shadow: 2px 2px 5px 0px#00000026;
+    cursor: pointer;
+}
+
+.icon-box img {
+    margin-top: 66px;
+    width: 110.374px;
+    height: 112.452px;
+}
+
+.icon-box p {
+    color: #5F6C37;
+    font-family: Old Standard TT;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.child3 {
+    padding: 31px;
+    border-radius: 0px 20px;
+    background: #5F6C37;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+.child3 p {
+    color: #fff;
+}
+
+/* Page Two */
+
+
+
+/* Page Three */
+
+.container-three {
+    width: 1441px;
+    height: 700px;
+    background-color: #fff;
+}
+
+.hero-img3 {
+    width: 50%;
+    height: 500px;
+    position: relative;
+    padding: 12px 0;
+}
+
+img.bg {
+    position: absolute;
+}
+
+img.tob {
+    position: absolute;
+    bottom: -128px;
+    right: 110px;
+}
+
+.container-three {
+    display: flex;
+}
+
+.hero-text3 {
+    width: 50%;
+    padding: 240px 0px;
+    margin-right: 2px;
+}
+
+.hero-text3 h1 {
+    color: #5f6c37;
+    font-family: Abril Fatface;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-right: 175px;
+    margin-bottom: 20px;
+}
+
+.hero-text3 p {
+    color: #363d1e;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.16px;
+    margin-right: 183px;
+    bottom: 32px;
+}
+
+span p {
+    width: 235px; 
+    color: #5f6c37;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 97.9%;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 12px 12px;
+    border: 2px solid;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+span p:hover {
+    background: #5F6C37;
+    color: #fff;
+}
+
+/* Page Three */
+
+
+
+/* Page Four */
+
+.hero-area4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    gap: 85px;
+}
+
+.vector4 {
+    margin-top: 109.31px;
+}
+
+.container-four {
+    background: #F1F1F1;
+    width: 1520px;
+}
+
+.best-sellers h2 {
+    color: #5F6C37;
+    font-family: Abril Fatface;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 97.9%;
+    letter-spacing: 0.5px;
+}
+
+.best-sellers button {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 97.9%;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+    padding: 12px 105px 12px 87px;
+    border-radius: 8px;
+    background: #5F6C37;
+    border: none;
+    margin-top: 32px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.best-sellers button:hover {
+    background: #EAA34D;
+}
+
+.best-sellers {
+    position: absolute;
+    gap: 50px;
+    left: 125px;
+}
+
+.best-sellers img {
+    position: absolute;
+    top: -220px;
+}
+
+.product {
+    width: 1440px;
+    height: 822px;
+    background: #F1F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-img {
+    position: relative;
+}
+
+.product-one button {
+    padding: 12px 112px 12px 107px;
+    border-radius: 8px;
+    background: #EAA34D;
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 97.9%;
+    letter-spacing: 0.16px;
+    border: none;
+    text-transform: uppercase;
+    position: absolute;
+    left: 27px;
+    bottom: 25px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.product-one button:hover {
+    background: #5F6C37;
+}
+
+.product-title {
+    color: #5F6C37;
+    font-family: Old Standard TT;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 97.9%;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    padding: 37px 0 16px 0;
+    cursor: pointer;
+}
+
+.product-one-text p {
+    color: #000;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 158%;
+    letter-spacing: 0.16px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.product-price {
+    display: flex;
+    align-items: center;
+    gap: 215px;
+}
+
+.product-price span {
+    color: #424B25;
+    font-family: Old Standard TT;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.change {
+    margin-left: 90px;
+    cursor: pointer;
+}
+
+/* Page Four */
+
+
+
+/* Page Five */
+
+.container-five {
+    width: 1520px;
+    height: 515px;
+    background: #ccdb99 url(Images/vector\ 2.png);
+}
+
+.hero-area5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero-text5 {
+    color: #5F6C37;
+    font-family: Abril Fatface;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 119.4%;
+    letter-spacing: 0.5px;
+    margin-left: 128px;
+}
+
+.hero-text5 button {
+    color: #5F6C37;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 97.9%;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+    padding: 12px 105px 12px 87px;
+    margin-top: 44px;
+    background: none;
+    border-radius: 8px;
+    border: 2px solid #5F6C37;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.hero-text5 button:hover {
+    background: #DE6957;
+    color: #fff;
+}
+
+/* Page Five */
+
+
+
+/* Page Six */
+
+.hero-area6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    gap: 85px;
+}
+
+.vector6 {
+    margin-top: 166.3px;
+}
+
+.container-six {
+    background: #F1F1F1;
+}
+
+.trends h2 {
+    color: #5F6C37;
+    font-family: Abril Fatface;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 97.9%;
+    letter-spacing: 0.5px;
+}
+
+.trends button {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 97.9%;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+    padding: 12px 105px 12px 87px;
+    border-radius: 8px;
+    background: #5F6C37;
+    border: none;
+    margin-top: 32px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.trends button:hover {
+    background: #EAA34D;
+}
+
+.trends {
+    position: absolute;
+    left: 136px;
+}
+
+.trends img {
+    position: absolute;
+    top: -220px;
+    left: 0;
+}
+
+.product {
+    width: 1440px;
+    height: 885px;
+    background: #F1F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.product-img {
+    position: relative;
+    width: 375px;
+    height: 386px;
+}
+
+.product-one button {
+    padding: 12px 112px 12px 107px;
+    border-radius: 8px;
+    background: #EAA34D;
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 97.9%;
+    letter-spacing: 0.16px;
+    border: none;
+    text-transform: uppercase;
+    position: absolute;
+    left: 27px;
+    bottom: 25px;
+}
+
+.product-one-text {
+    width: 375px;
+    height: 186px;
+}
+
+.product-title {
+    color: #5F6C37;
+    font-family: Old Standard TT;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 97.9%;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    padding: 37px 0 16px 0;
+}
+
+.product-one-text p {
+    color: #000;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 158%;
+    letter-spacing: 0.16px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.product-price {
+    justify-content: end;
+}
+
+.product-price span {
+    color: #424B25;
+    font-family: Old Standard TT;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.change img {
+    margin-left: 805.3px;
+    margin-bottom: 50px;
+}
+
+/* Page Six */
+
+
+
+/* Page Seven */
+
+.container-seven {
+    width: 1446px;
+    height: 803px;
+    background: #FFF;
+}
+
+.heading-blog {
+    text-align: center;
+    margin-top: 98px;
+    color: #5F6C37;
+    font-family: Abril Fatface;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 97.9%;
+    letter-spacing: 0.5px;
+}
+
+.blog-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 69px;
+    margin-bottom: 62px;
+}
+
+.content-info {
+    width: 371px;
+    height: 395px;
+    background:  #fff;
+}
+
+.content-info h3 {
+    color: #5F6C37;
+    font-family: Old Standard TT;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    margin-top: 22.28px;
+    margin-left: 23px;
+    margin-right: 14px;
+    margin-bottom: 11.74px;
+    cursor: pointer;
+}
+
+.content-info:first-child {
+    fill: var(--neutral-light-100, #FFF);
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.10));
+    border-radius: 0 15px 0;
+}
+
+.content-info  .border img {
+    width: 372.756px;
+    height: 1.132px;
+    margin-bottom: .64px;
+}
+
+.content-info p {
+    color: #242914;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.16px;
+    margin-top: 22.64px;
+    margin-left: 22.62px;
+    margin-bottom: 22.64px;
+}
+
+.see-all-btn button {
+    margin-left: 643px;
+    padding: 12px 97px 12px 79px;
+    color: #5F6C37;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 97.9%;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+    background: #FFF;
+    border-radius: 8px;
+    border: 2px solid #5F6C37;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.see-all-btn button:hover {
+    background: #5F6C37;
+    color: #fff;
+}
+
+/* Page Seven */
+
+
+
+/* Page Eight */
+
+.container-eight {
+    width: 1520px;
+    height: 449px;
+    background: #ccdb99;
+}
+
+.hero-area8 {
+    display: flex;
+}
+
+.loto-side {
+    margin-left: 136px;
+    margin-top: 91px;
+}
+
+.loto-side img {
+    width: 289px;
+    height: 90px;
+    padding: 8.55px 1.276px 9.525px 2.177px;
+}
+
+.loto-side p {
+    color: #000;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 203.5%;
+    margin-top: 22px;
+}
+
+.coustomer {
+    margin-left: 110px;
+    margin-top: 100px;
+}
+
+.coustomer h2 {
+    width: 178px;
+    color: #424B25;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.coustomer p {
+    color: #32391C;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 203.5%;
+    margin-top: 15px;
+}
+
+.about {
+    margin-left: 46px;
+    margin-top: 100px;
+}
+
+.about h2 {
+    color: #424B25;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about p {
+    color: #32391C;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 203.5%;
+    margin-top: 15px;
+}
+
+.services {
+    margin-top: 100px;
+}
+
+.services h2 {
+    color: #424B25;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 19px;
+}
+
+.services p {
+color: #32391C;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 203.5%;
+    margin-top: 15px;
+    margin-left: 18px;
+}
+
+.last-border img {
+    width: 1520px;
+    height: 2px;
+    margin-top: 147px;
+}
+
+/* Page Eight */
+
+
+
+/* Page-last */
+
+.container-last {
+    width: 1520px;
+    height: 53px;
+    background: #f9de80;
+    margin-bottom: 132px;
+}
+
+.hero-area-last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.something p {
+    color: #32391C;
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 136px;
+}
+
+.social-icon {
+    display: flex;
+    margin-right: 136px;
+    cursor: pointer;
+}
+
+.telegram {
+    width: 25px;
+    height: 25px;
+    margin-top: 14px;
+    margin-right: 15px;
+}
+
+.insta {
+    width: 24.468px;
+    height: 25px;
+    padding: 0px 0.014px 0.005px 0px;
+    margin-top: 14px;
+    margin-right: 25.53px;
+}
+
+.twitter {
+    width: 25px;
+    height: 25px;
+    margin-top: 14px;
+    margin-right: 19px;
+}
+
+.facebook {
+    width: 27px;
+    height: 27px;
+    margin-top: 14px;
+    margin-right: 24px;
+}
+
+.pintarest {
+    width: 25px;
+    height: 25px;
+    margin-top: 14px;
+}
+
+/* Page-last */
